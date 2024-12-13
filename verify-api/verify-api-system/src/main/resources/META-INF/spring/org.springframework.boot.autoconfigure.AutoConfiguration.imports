@@ -1,0 +1,3 @@
+com.verify.system.api.factory.RemoteUserFallbackFactory
+com.verify.system.api.factory.RemoteLogFallbackFactory
+com.verify.system.api.factory.RemoteFileFallbackFactory

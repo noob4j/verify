@@ -1,0 +1,13 @@
+# 基础镜像
+FROM redis
+# author
+MAINTAINER verify
+
+# 挂载目录
+VOLUME /home/verify/redis
+# 创建目录
+RUN mkdir -p /home/verify/redis
+# 指定路径
+WORKDIR /home/verify/redis
+# 复制conf文件到路径
+COPY ./conf/redis.conf /home/verify/redis/redis.conf

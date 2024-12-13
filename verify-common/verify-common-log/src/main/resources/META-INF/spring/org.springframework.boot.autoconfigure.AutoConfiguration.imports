@@ -1,0 +1,2 @@
+com.verify.common.log.service.AsyncLogService
+com.verify.common.log.aspect.LogAspect
